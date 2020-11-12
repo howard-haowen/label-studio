@@ -11,7 +11,7 @@
 
       <div class="ui action input fluid">
         <input id="ml_backend_url" type="text" placeholder="http://localhost:9090">
-        <button class="ui positive button" onclick="addMlBackend()">Add Backend</button>
+        <button class="ui positive button" onclick="addMlBackend()">新增模型後端</button>
       </div>
       <div class="ui divider hidden"></div>
       <div class="ui three column grid">
@@ -64,8 +64,8 @@
 
             {% else %}
               <div style="margin: 0 auto">
-                <p>No connected ML backends.
-                  <a href="https://labelstud.io/guide/ml.html">How to use ML models in Label Studio?</a>
+                <p>閱讀:
+                  <a href="https://labelstud.io/guide/ml.html">如何在Label Studio使用機器學習模型？</a>
                 </p>
               </div>
             {% endfor %}
@@ -107,7 +107,7 @@
                 <div id="holder">
                   <div class="text">
                     <i class="ui icon huge upload"></i>
-                    <p>Import new data and check the model prediction, drop your file here</p>
+                    <p>在此匯入新資料以檢視模型預測結果</p>
                   </div>
                 </div>
               </div>
