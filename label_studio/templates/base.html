@@ -57,7 +57,7 @@
     <a href="tasks" class="{% if url_for(request.endpoint) == '/tasks' %}active{% endif %}">任務</a>
 
     <a id="menu-import" href="import" class="{% if url_for(request.endpoint) == '/import' %}active{% endif %}"
-       style="display:{{'block' if project and project.can_manage_tasks else 'none'}}">Import</a>
+       style="display:{{'block' if project and project.can_manage_tasks else 'none'}}">匯入</a>
 
     <a href="export" class="{% if url_for(request.endpoint) == '/export' %}active{% endif %}">匯出</a>
 
