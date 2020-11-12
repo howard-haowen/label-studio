@@ -43,7 +43,7 @@
     </div>
 
     <center>
-      <div class="header">Choose export format:</div>
+      <div class="header">選擇匯出格式:</div>
       <select id="export-format-dropdown" class="ui dropdown">
         {% for format in formats %}
           <option value="{{ format }}">{{ format }}</option>
@@ -53,7 +53,7 @@
       <br>
       <a class="ui button positive center"
          onclick="downloadFile('api/export?format=' + $('#export-format-dropdown').val())">
-        Export Completions</a>
+        匯出標記結果</a>
       <br>
 
       <div style="margin-top: 5em">
