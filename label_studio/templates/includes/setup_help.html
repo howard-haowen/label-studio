@@ -4,15 +4,14 @@
 
   <!-- Label config -->
   <div class="ui accordion">
-    <div class="active title"><i class="dropdown icon"></i> Labeling config help</div>
+    <div class="active title"><i class="dropdown icon"></i>標記設定說明</div>
     <div class="active content">
       <ul class="ui list">
-        <li>Labeling interface is based on html-like tags, read more in our
-          <a href="https://labelstud.io/tags" target="_blank">documentation</a>.
+        <li>標記介面使用類似HTML的標籤，請詳閱
+          <a href="https://labelstud.io/tags" target="_blank">說明文件</a>.
         </li>
-        <li>You can fully customize the appearance and workflow by modifying Labeling Config.</li>
-        <li>Tag values can use variables that start with "$" sign,
-          and those correspond to the fields in imported tasks from JSON or CSV files.
+        <li>您可在Labeling Config視窗中客製化標記介面的外觀與流程</li>
+        <li>標籤的值可以使用以"$"符號開始的變數，以及您所匯入的JSON或CSV檔案中欄位。
         </li>
       </ul>
       <div style="margin: 0.25em"></div>
@@ -73,7 +72,7 @@
 
 <script>
   function new_project() {
-    let yes = confirm("You will lose ALL YOUR DATA, this action CAN'T BE UNDONE.\nAre you sure?");
+    let yes = confirm("您的資料將會消失，並且無法復原，請確認是否仍要繼續？");
     if (yes) {
       let request = new XMLHttpRequest();
       request.open("POST", "api/project/?new=true", true);
