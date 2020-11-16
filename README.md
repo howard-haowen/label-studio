@@ -2,7 +2,7 @@
 
 [Website](https://labelstud.io/) • [Docs](https://labelstud.io/guide/) • [Twitter](https://twitter.com/heartexlabs) • [Join Slack Community <img src="https://app.heartex.ai/docs/images/slack-mini.png" width="18px"/>](https://join.slack.com/t/label-studio/shared_invite/zt-cr8b7ygm-6L45z7biEBw4HXa5A2b5pw)
 
-This repo is forked from heartexlabs/label-studio, and meant to be a Chinese version of the original app aside from some minor revisions. This is still a work in progress. 
+This repo is forked from heartexlabs/label-studio, and meant to be a Chinese version of the original app aside from some minor revisions. This is still a work in progress. See a live [demo at heroku](http://ml-labels.herokuapp.com/welcome).
 
 
 ## Citation
