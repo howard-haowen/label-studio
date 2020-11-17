@@ -1,4 +1,4 @@
-<!-- {"title": "Text classification", "category": "text", "complexity": "basic", "order": "!"} -->
+<!-- {"title": "文本分類", "category": "text", "complexity": "basic", "order": "!"} -->
 <View>
   <Text name="text" value="$text"/>
   <Choices name="sentiment" toName="text" choice="single">
