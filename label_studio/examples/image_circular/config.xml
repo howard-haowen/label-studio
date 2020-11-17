@@ -1,4 +1,4 @@
-<!-- {"title": "Circular object detector", "category": "image", "complexity": "basic", "complexity": "basic"} -->
+<!-- {"title": "圖像物體偵測(圓形框)", "category": "image", "complexity": "basic", "complexity": "basic"} -->
 <View>
   <Image name="image" value="$image"/>
   <EllipseLabels name="tag" toName="image">

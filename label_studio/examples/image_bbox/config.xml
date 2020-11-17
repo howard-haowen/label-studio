@@ -1,4 +1,4 @@
-<!-- {"title": "Bbox object detection", "category": "image", "complexity": "basic"} -->
+<!-- {"title": "圖像物體偵測(矩形框)", "category": "image", "complexity": "basic"} -->
 <View>
   <Image name="image" value="$image"/>
   <RectangleLabels name="label" toName="image">
