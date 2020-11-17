@@ -1,4 +1,4 @@
-<!-- {"title": "Multi classification", "category": "text", "complexity": "basic"} -->
+<!-- {"title": "文本多標籤分類", "category": "text", "complexity": "basic"} -->
 <View>
   <Text name="text" value="$text" />
 
