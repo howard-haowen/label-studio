@@ -1,4 +1,4 @@
-<!-- {"title": "Speaker diarization", "category": "audio", "complexity": "basic"} -->
+<!-- {"title": "人聲分離"", "category": "audio", "complexity": "basic"} -->
 <View>
   <Labels name="label" toName="audio" choice="multiple">
     <Label value="Speaker 1" />
