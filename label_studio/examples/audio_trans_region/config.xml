@@ -1,4 +1,4 @@
-<!-- {"title": "Transcription per region", "category": "audio", "complexity": "basic"} -->
+<!-- {"title": "語音轉寫(分段)", "category": "audio", "complexity": "basic"} -->
 <View>
   <Labels name="labels" toName="audio">
     <Label value="Speaker 1" />

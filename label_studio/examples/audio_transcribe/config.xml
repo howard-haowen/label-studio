@@ -1,4 +1,4 @@
-<!-- {"title": "Transcription whole audio", "category": "audio", "complexity": "basic"} -->
+<!-- {"title": "語音轉寫(不分段)", "category": "audio", "complexity": "basic"} -->
 <View>
   <Header value="Listen to the audio" />
   <Audio name="audio" value="$audio" />
